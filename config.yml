@@ -1,0 +1,44 @@
+# if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+baseURL: http://zdeep.me/
+title: Zaheen Ahmed Deep
+# paginate: 5
+theme: charlolamode
+
+menu:
+  main:
+    - name: Contact
+      url: /contact/
+      weight: 30
+
+params:
+  defaultTheme: auto
+  profileMode:
+    # Disable to populate home page with 'mainSections' content
+    enabled: true
+    title: Zaheen Ahmed Deep
+    description:    
+      Hi, I am Zaheen, a Junior Computer Science Major at the
+      
+      
+      [University of Maryland, College Park](https://www.cs.umd.edu/about).
+      
+
+      I am currently working as a Systems Administrator at [UMIACS](https://www.umiacs.umd.edu/node/20815).
+    imageUrl: "/images/cropdeep.jpg"
+    imageTitle: Zaheen Ahmed Deep
+    buttons:
+  socialIcons:
+    - name: github
+      url: "https://github.com/zaheenadeep"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/zaheenadeep/"
+    - name: youtube
+      url: "https://www.youtube.com/@zadspecial"
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+    disableXML: true
