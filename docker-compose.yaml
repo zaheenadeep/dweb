@@ -1,7 +1,7 @@
 services:
   hugo:
     image: klakegg/hugo:0.101.0
-    command: server
+    command: server --baseURL=http://zdeep.me/ --bind 0.0.0.0 --appendPort=false
     volumes:
       - ".:/src"
     ports:
