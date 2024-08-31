@@ -17,13 +17,10 @@ params:
     enabled: true
     title: Zaheen Ahmed Deep
     description:    
-      Hi, I am Zaheen, a Senior Computer Science Major at the
+      Hi, I'm Zaheen, an Associate Systems Engineer in the Infrastructure Team of
       
       
-      [University of Maryland, College Park](https://www.cs.umd.edu/about).
-      
-
-      I am currently working as a Systems Administrator at [UMIACS](https://www.umiacs.umd.edu/node/20815), specializing in development.
+      [CoStar Group](https://www.costargroup.com/).
     imageUrl: "/images/cropdeep.jpg"
     imageTitle: Zaheen Ahmed Deep
     buttons:
